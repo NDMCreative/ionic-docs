@@ -18,7 +18,11 @@ To add this package to the app run:
 
 ```shell
 $ ng add @angular/pwa
+$ npm i --save @angular/service-worker
+$ npm rebuild node-sass
 ```
+*make sure that the folders ./www and ./platforms exist in you app
+
 
 Once this package has been added run `ionic build --prod` and the `www` directory will be ready to deploy as a PWA.
 
